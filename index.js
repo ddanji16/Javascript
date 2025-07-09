@@ -23,7 +23,11 @@ function txt(){
 
 alert("loaded");
 
+//document.getElementsByClassName('container').style.color = "red";
 
+//document.getElementsByTagName
+
+//document.getElementsByName
 
 
 
