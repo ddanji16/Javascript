@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: wheat;
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px;
+
+   animation-name: slide;
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+}
+@keyframes slide{
+    from{margin-top: 500px;}
+    to{margin-bottom: 0px;}
+}
+.box button{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(14, 8, 8);
+    
+}
+h1{
+    text-align: center;
+}
